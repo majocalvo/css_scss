@@ -1,5 +1,6 @@
-$tamaño-fuente:2rem;
-$tipo-letra:uppercase;
+@media screen and (min-width:1280px){
+    
+
 
 .container{
     display:grid;
@@ -11,8 +12,6 @@ $tipo-letra:uppercase;
     "item4 item4 . item5"
     "item4 item4 . item6"
     "item7 item7 item7 item7";
-    &__item{
-        font-size: $tamaño-fuente;
-        text-transform:$tipo-letra;
-    }
+
+}
 }

@@ -1,5 +1,5 @@
-$tamaño-fuente: 2rem;
-$tipo-letra:uppercase;
+@media screen and (max-width: 640px) {
+    
 
 .container{
     display:grid;
@@ -14,11 +14,8 @@ $tipo-letra:uppercase;
     "item6"
     "item5";
 
-    &__item{
-        font-size:$tamaño-fuente;
-        text-transform: $tipo-letra;
-        
-    }
+   
+}
 }
 // .item{
 //     font-size: $tamaño-fuente;
