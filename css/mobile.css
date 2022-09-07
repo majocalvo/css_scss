@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr) repeat(2, 3fr) repeat(3, 2fr);
+  grid-template-columns: 1fr;
+  grid-template-areas: "item1" "item2" "item3" "item4" "item7" "item6" "item5";
+}
+.container__item {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=mobile.css.map */

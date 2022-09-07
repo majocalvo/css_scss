@@ -1,0 +1,20 @@
+$tamaño-fuente:2rem;
+$tipo-letra:uppercase;
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr 2fr 2fr;
+    grid-template-columns: 1fr 2fr 2fr;
+   grid-template-areas: 
+   "item1 item1 item1"
+   "item3 item3 item3"
+   "item2 item4 item4"
+   "item2 item7 item7"
+   "item2 item6 item5";
+    
+    &__item{
+        font-size: $tamaño-fuente;
+        text-transform: $tipo-letra;
+    }
+
+}

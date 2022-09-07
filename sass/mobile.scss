@@ -1,0 +1,25 @@
+$tamaño-fuente: 2rem;
+$tipo-letra:uppercase;
+
+.container{
+    display:grid;
+    grid-template-rows: repeat(2, 1fr) repeat(2,3fr) repeat(3,2fr);
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "item1"
+    "item2"
+    "item3"
+    "item4"
+    "item7"
+    "item6"
+    "item5";
+
+    &__item{
+        font-size:$tamaño-fuente;
+        text-transform: $tipo-letra;
+        
+    }
+}
+// .item{
+//     font-size: $tamaño-fuente;
+// }
